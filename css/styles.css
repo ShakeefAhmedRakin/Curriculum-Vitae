@@ -1,0 +1,33 @@
+body {
+    background-color: #DBDFFD;
+  }
+
+  hr {
+    border-style:dotted none none none;
+    width: 5%;
+    border-color: #9BA3EB;
+    border-width: 5px;
+  }
+
+
+  h1 {
+    color: #242F9B;
+  }
+
+  h3 {
+    color: #242F9B;
+  }
+
+
+
+.icons {
+    height:40px;
+    width:40px;
+    padding: 3px;
+}
+
+.icons:hover {
+    height:44px;
+    width:44px;
+    padding: 0px;
+}
