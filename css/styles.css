@@ -7,12 +7,17 @@ body{
     font-family: "Josefin Sans";
 }
 
+
+#title{
+    padding: 1% 10%;
+}
+
 hr{
     border-style:dotted none none none;
     width: 10rem;
     border-color: #1E56A0;
     border-width: 1rem;
-    margin: 5rem auto;
+    margin: 2rem auto;
   }
 
 /* NAVIGATION BAR */
@@ -22,22 +27,18 @@ hr{
     color: #1E56A0;
     font-size: 2rem;
     font-weight: bold;
-    margin: 5rem 5rem;
+    margin: 3rem 4rem;
     padding: 0;
 }
 
 .nav-link:hover{
     
     color: #163172;
-    font-size: 2rem;
-    font-weight: 900;
-    margin: 5rem 5rem;
-    padding: 0;
 }
 
 
 
-/* TITLE IMAGE */
+/* TITLE BODY */
 
 #title-body{
     text-align: center;
@@ -46,7 +47,19 @@ hr{
 
 #title-pic{
     height: 20rem;
+    transition-duration: 1s;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 0 0.5rem gray);
 }
+
+#title-pic:hover{
+    height: 21rem;
+    margin-bottom: 0rem;
+}
+
+
+
 
 #main-intro{
     color: #163172;
@@ -64,34 +77,60 @@ hr{
 }
 
 
+/* ABOUT ME */
+
+#aboutme{
+    padding: 1% 1%;
+}
+
 
 #aboutme-body{
+    color: #F6F6F6;
     text-align: center;
     margin: auto;
     background-color: #1E56A0;
+    border-radius: 0.5rem;
+    transition-duration: 1s;
+}
+
+
+#aboutme-body:hover{
+    background-color: #1a4783;
 }
 
 
 #About-me-title{
-    color: #F6F6F6;
     font-weight: bold;
     font-size: 4.5rem;
-    margin-top: 12rem;
+    margin: 4rem auto 0 auto;
+}
+
+#info{
+    font-size: 15rem;
+    margin: 1.5rem auto;
+}
+
+#clicky{
+    color: #F6F6F6;
+    font-size: 2rem;
+    font-weight: 550;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+#clicky:hover{
+    color: #d0d0d0;
 }
 
 
-#aboutme-para{
-    color: #F6F6F6;
+
+#About-me-para{
     font-weight: 700;
     font-size: 2rem;
     margin: 5rem 5rem;
+    text-align: left;
 
 }
-
-
-
-
-
 
 
 
