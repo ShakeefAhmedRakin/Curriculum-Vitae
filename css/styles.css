@@ -1,33 +1,98 @@
-body {
-    background-color: #DBDFFD;
-  }
+body{
+    background: rgb(246,246,246);
+    background: -moz-radial-gradient(circle, rgba(246,246,246,1) 0%, rgba(208,208,208,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(246,246,246,1) 0%, rgba(208,208,208,1) 100%);
+    background: radial-gradient(circle, rgba(246,246,246,1) 0%, rgba(208,208,208,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr="#d0d0d0",GradientType=1);
+    font-family: "Josefin Sans";
+}
 
-  hr {
+hr{
     border-style:dotted none none none;
-    width: 5%;
-    border-color: #9BA3EB;
-    border-width: 5px;
+    width: 10rem;
+    border-color: #1E56A0;
+    border-width: 1rem;
+    margin: 5rem auto;
   }
 
-
-  h1 {
-    color: #242F9B;
-  }
-
-  h3 {
-    color: #242F9B;
-  }
+/* NAVIGATION BAR */
 
 
-
-.icons {
-    height:40px;
-    width:40px;
-    padding: 3px;
+.nav-link{
+    color: #1E56A0;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5rem 5rem;
+    padding: 0;
 }
 
-.icons:hover {
-    height:44px;
-    width:44px;
-    padding: 0px;
+.nav-link:hover{
+    
+    color: #163172;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 5rem 5rem;
+    padding: 0;
 }
+
+
+
+/* TITLE IMAGE */
+
+#title-body{
+    text-align: center;
+    margin: auto;
+}
+
+#title-pic{
+    height: 20rem;
+}
+
+#main-intro{
+    color: #163172;
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin-top: 5rem;
+}
+
+
+#intro-para{
+    color: #163172;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+
+
+#aboutme-body{
+    text-align: center;
+    margin: auto;
+    background-color: #1E56A0;
+}
+
+
+#About-me-title{
+    color: #F6F6F6;
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin-top: 12rem;
+}
+
+
+#aboutme-para{
+    color: #F6F6F6;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 5rem 5rem;
+
+}
+
+
+
+
+
+
+
+
+
