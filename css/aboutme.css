@@ -1,0 +1,25 @@
+#main-section{
+    color: #163172;
+    padding: 0% 7%;
+}
+
+
+.about-me-sections{
+    padding: 6rem;
+}
+
+
+@media (max-width: 1200px) {
+
+    .about-me-sections{
+        padding: 1rem;
+    }
+
+}
+
+
+
+
+
+
+

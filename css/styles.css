@@ -1,55 +1,13 @@
-body{
-    background: rgb(255,255,255);
-    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f6f6f6",GradientType=1);
-    font-family: "Josefin Sans";
-}
-
-
-#title{
-    padding: 1% 10%;
-}
-
-hr{
-    border-style:dotted none none none;
-    width: 10rem;
-    border-color: #1E56A0;
-    border-width: 1rem;
-    margin: 2rem auto;
-  }
-
-/* NAVIGATION BAR */
-
-
-.nav-link{
-    color: #1E56A0;
-    font-size: 2rem;
-    font-weight: bold;
-    filter: drop-shadow(0 0 1rem gray);
-    margin: 3rem 4rem;
-    padding: 0;
-}
-
-.nav-link:hover{
-    
-    color: #163172;
-}
-
-
-
 /* TITLE BODY */
 
-#title-body{
-    text-align: center;
-    margin: auto;
+#title-section{
+    padding: 0% 7%;
 }
+
 
 #title-pic{
     height: 20rem;
     transition-duration: 1s;
-    margin-top: 3rem;
     margin-bottom: 1rem;
     filter: drop-shadow(0 0 0.5rem gray);
 }
@@ -61,29 +19,45 @@ hr{
 
 
 
-
 #main-intro{
     color: #163172;
-    font-weight: bold;
-    font-size: 4.5rem;
     margin-top: 5rem;
 }
 
 
 #intro-para{
     color: #163172;
-    font-weight: 700;
-    font-size: 2rem;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
+
+
+#social-container{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.social-logo{
+    font-size: 5rem;
+}
+
+.fa-brands{
+    color: #1E56A0;
+
+    transition-duration: 1s;
+}
+
+.fa-brands:hover{
+    color: #163172;
+}
+
 
 
 /* ABOUT ME */
 
 #aboutme{
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
 }
-
 
 
 #aboutme-body{
@@ -91,7 +65,6 @@ hr{
     background-color: #1E56A0;
     border-radius: 0.5rem;
     filter: drop-shadow(0 0 0.5rem gray);
-    text-align: center;
     transition-duration: 1s;
     margin-top: 0.5rem;
     margin-bottom: 0rem;
@@ -107,36 +80,35 @@ hr{
 
 #About-me-title{
     font-weight: bold;
-    font-size: 4.5rem;
-    margin: 4rem auto 0 auto;
+    margin: 2rem auto 0 auto;
 }
 
-#info{
+#info-logo{
     font-size: 15rem;
-    margin: 1.5rem auto;
+    margin: 1.5rem auto 0rem;
+    padding-bottom: 1.5rem;
 }
 
-#clicky{
+#clickhere-info{
     color: #F6F6F6;
-    font-size: 2rem;
     font-weight: 550;
     text-decoration: none;
     transition-duration: 1s;
 }
 
-#clicky p{
-    margin-bottom: 5rem;
+#clickhere-info p{
+    font-size: 2rem;
+    display: inline-block;
 }
 
-#clicky:hover{
+#clickhere-info:hover{
     color: #d0d0d0;
 }
 
 
 
 #About-me-para{
-    font-weight: 700;
-    font-size: 2rem;
+    line-height: 2;
     margin: 5rem 1rem;
     text-align: left;
 }
@@ -145,24 +117,18 @@ hr{
 /* PORTFOLIO */
 
 
-
 #portfolio-section{
-    text-align: center;
     padding: 1% 4%;
     margin-bottom: 6rem;
 }
 
 #portfolio-title{
     color: #163172;
-    font-weight: bold;
-    font-size: 3.5rem;
 }
 
 
 #portfolio-para{
     color: #163172;
-    font-weight: 700;
-    font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -174,7 +140,6 @@ hr{
     filter: drop-shadow(0 0 0.5rem gray);
     padding-top: 1rem;
     padding-bottom: 1rem;
-    text-align: center;
     transition-duration: 1s;
     margin-top: 2.5rem;
     margin-bottom: -4rem;
@@ -187,23 +152,61 @@ hr{
 }
 
 
-
 #carouselExample{
     padding:0.5rem 1rem;
 }
 
 
 .carousel-control-prev,.carousel-control-next{
-    background-color: black;
+    background-color: gray;
     margin: 0.5rem 3rem;
-    width: 8rem;
-}
-
-.carousel-control-next-icon .carousel-control-prev-icon{
-    height: 200px;
+    width: 10%;
 }
 
 
+
+/* MOBILE CSS */
+
+
+@media (max-width: 992px) {
+
+    #title-pic{
+        height: 15rem;
+    }
+
+    #title-pic:hover{
+        height: 16rem;
+    }
+
+
+    #social-container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .social-logo{
+        color: #163172;
+        font-size: 3rem;
+        margin-top: 1.5rem;
+    }
+
+
+    .port-img{
+        height: 30rem;
+    }
+
+    #clickhere-info{
+        font-size: 1.5rem;
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+
+    #info-logo{
+        font-size: 8rem;
+    }
+
+    
+}
 
 
 

@@ -1,0 +1,92 @@
+
+
+
+
+
+
+
+
+
+body{
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f6f6f6",GradientType=1);
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+
+.dothr{
+    border-style:dotted none none none;
+    width: 10rem;
+    border-color: #1E56A0;
+    border-width: 1rem;
+    margin: 2rem auto;
+  }
+
+
+
+.large-heading{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+
+.large-heading-ks{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Josefin Slab', serif;
+}
+
+.medium-heading{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.medium-heading-ks{
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+.medium-content{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.small-content{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 992px) {
+
+    .large-heading{
+        font-size: 2rem;
+    }
+
+    .large-heading-ks{
+        font-size: 2rem;
+    }
+    
+    .medium-heading{
+        font-size: 1.2rem;
+    }
+    
+    .medium-heading-ks{
+        font-size: 1.2rem;
+    }
+
+
+    .medium-content{
+        font-size: 1.2rem;
+    }
+
+    .small-content{
+        font-size: 1.1rem;
+    }
+
+}

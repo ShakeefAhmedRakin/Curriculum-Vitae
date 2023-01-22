@@ -1,0 +1,27 @@
+/* NAVBAR */
+
+#navbar-section{
+    padding: 1% 7%;
+    margin-bottom: 3rem;
+}
+
+.nav-link{
+    color: #163172;
+    font-size: 2rem;
+    font-weight: bolder;
+    filter: drop-shadow(0 0 1rem gray);
+    margin: 2rem 4rem;
+    padding: 0;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+
+@media (max-width: 992px) {
+
+    .nav-link{
+        margin: 1rem;
+    }
+}
